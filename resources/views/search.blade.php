@@ -34,7 +34,7 @@
       if (window.navigator.onLine == false){        
         document.getElementById("busca").disabled=true;
         document.getElementById("search").disabled=true;
-        document.getElementById("searchList").innerHTML = '<div class="alert alert-warning" role="alert"> Verifique a sua conexão com a internet!</div>';
+        document.getElementById("searchList").innerHTML = '<div class="alert alert-warning" role="alert"> Sem conexão com a internet, verifique antes de continuar. </div>';
       }
       $(document).keypress(function(e) {
           if(e.which == 13){
